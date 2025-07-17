@@ -1,7 +1,7 @@
 # AI Trash Detection and Mapping Project
 
 ## Project Overview
-This project is a proof-of-concept AI system that detects trash, classifies the type of trash, and logs the location of each detection on a live map. The long-term goal is to deploy this system on an RC car, to autonomously navigate areas, identify trash in real time, and map its location for cleanup and data analysis purposes.
+This project is a proof-of-concept AI system that detects trash, classifies the type of trash, and logs the location of each detection on a map. The long-term goal is to deploy this system on an RC car, to autonomously navigate areas, identify trash in real time, and map its location for cleanup and data analysis purposes.
 
 ## Note on Hardware
 Due to time and budget constraints, we did not deploy this project on an RC car. However, the code should be compatible with RC cars equipped with onboard compute (e.g., NVIDIA Jetson Nano or equivalent), camera modules, and GPS sensors. The purpose of this project is to serve as a prototype that can be easily adapted to an RC car platform in the future. If the script doesn't work directly, feel free to change the script to fit your specific scenario.
